@@ -1,0 +1,9 @@
+# Core web UI
+# Gradio 4.x / 5.x / 6.x compatibility is handled by the application where practical.
+gradio>=4.44.1,<7.0
+
+# Hugging Face Hub API and downloads
+huggingface_hub>=0.23.0
+
+# Progress integration used by the Hugging Face Hub downloader
+tqdm>=4.66.0
